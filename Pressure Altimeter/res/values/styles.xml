@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// Pressure Altimeter - a pressure altimeter for Android devices
+// written by Tom Stepleton <stepleton@gmail.com> in early 2012
+// released into the public domain
+ -->
+<resources>
+    <style name="AltimeterGraphicElement">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawingCacheQuality">low</item>
+        <item name="android:layerType">hardware</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>

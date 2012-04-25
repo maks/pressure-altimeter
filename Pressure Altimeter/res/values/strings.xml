@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// Pressure Altimeter - a pressure altimeter for Android devices
+// written by Tom Stepleton <stepleton@gmail.com> in early 2012
+// released into the public domain
+ -->
+<resources>
+
+    <string name="app_name">Pressure Altimeter</string>
+    
+    <string name="alert_admonition">
+        NOT FOR NAVIGATION. NOT A FLIGHT INSTRUMENT. Do not use this app to measure or identify your
+        altitude. Do not use this app to verify or &quot;cross-check&quot; the indications of any
+        altitude or barometric pressure measurement device.
+    </string>
+    <string name="alert_admonition_ack">Acknowledged</string>
+    
+    <string name="alert_pressure">
+        This app requires a pressure sensor in your Android device to measure atmospheric pressure and
+        compute an altitude indication. It will run without a pressure sensor, in which case the
+        experience will resemble using this app at sea level on the Standard Day. 
+    </string>
+    <string name="alert_pressure_ack">Continue</string>
+    <string name="alert_pressure_abort">Quit</string>
+    
+    <string name="altimeter_face_desc">Altimeter face with printed markings.</string>
+    <string name="altimeter_needle_100_desc">Altimeter needle indicating hundreds of feet.</string>
+    <string name="altimeter_needle_1000_desc">Altimeter needle indicating thousands of feet.</string>
+    <string name="altimeter_needle_10000_desc">Altimeter needle indicating tens of thousands of feet.</string>
+    <string name="altimeter_pressure_dial_desc">Rotating dial indicating the altimeter setting.</string>
+    <string name="altimeter_shaft_cap_desc">Cap covering the end of the altimeter needle shaft.</string>
+    
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// Pressure Altimeter - a pressure altimeter for Android devices
+// written by Tom Stepleton <stepleton@gmail.com> in early 2012
+// released into the public domain
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        style="@style/AltimeterGraphicElement"
+        android:contentDescription="@string/altimeter_pressure_dial_desc"
+        android:id="@+id/altimeter_pressure_dial"
+        android:src="@drawable/altimeter_pressure_dial"
+        />
+    <ImageView
+        style="@style/AltimeterGraphicElement"
+        android:contentDescription="@string/altimeter_face_desc"
+        android:id="@+id/altimeter_face"
+        android:src="@drawable/altimeter_face"
+        />
+    <ImageView
+        style="@style/AltimeterGraphicElement"
+        android:contentDescription="@string/altimeter_needle_10000_desc"
+        android:id="@+id/altimeter_needle_10000"
+        android:src="@drawable/altimeter_needle_10000"
+        />
+    <ImageView
+        style="@style/AltimeterGraphicElement"
+        android:contentDescription="@string/altimeter_needle_1000_desc"
+        android:id="@+id/altimeter_needle_1000"
+        android:src="@drawable/altimeter_needle_1000"
+        />
+    <ImageView
+        style="@style/AltimeterGraphicElement"
+        android:contentDescription="@string/altimeter_needle_100_desc"
+        android:id="@+id/altimeter_needle_100"
+        android:src="@drawable/altimeter_needle_100"
+        />
+    <ImageView
+        style="@style/AltimeterGraphicElement"
+        android:contentDescription="@string/altimeter_shaft_cap_desc"
+        android:id="@+id/altimeter_shaft_cap"
+        android:src="@drawable/altimeter_shaft_cap"
+        />
+
+    <TextView
+        android:id="@+id/debugText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff0000"
+        android:typeface="monospace"
+        android:visibility="gone"
+        android:inputType="textMultiLine|textNoSuggestions" >
+
+        <requestFocus />
+    </TextView>
+
+</RelativeLayout>
